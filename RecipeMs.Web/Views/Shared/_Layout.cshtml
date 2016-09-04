@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+        <header class="main-header">
+            <a href="@Url.Action("Index", "Home")" class="logo">
+                <span class="logo-lg">Top Gourmet</span>
+                <span class="logo-mini"> T G</span>
+            </a>
+
+            <nav class="navbar navbar-static-top" role="navigation">
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only"></span>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown messages-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="label label-success">1</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">You have 1 messages</li>
+                                <li>
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/Images/user.jpeg" class="img-circle" alt="user image" />
+                                                </div>
+                                                <h4>
+                                                    Pedro Cordeiro
+                                                    <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                                                </h4>
+                                                <p>Good luck on your certification exam</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <aside class="main-sidebar">
+            <section class="sidebar">
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        <img src="~/Images/user.jpeg" class="img-circle" alt="user image" />
+                    </div>
+                    <div class="pull-left info">
+                        <p>Pedro Cordeiro</p>
+                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                    </div>
+                </div>
+
+                <ul class="sidebar-menu">
+                    <li class="header">Admin Area</li>
+                    <li id="Home">
+                        <a href="@Url.Action("Index", "Home")" >
+                            <i class="fa fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li id="Food">
+                        <a href="@Url.Action("Index", "Food")" >
+                            <i class="fa fa-glass fa-cutlery"></i>
+                            <span>Food</span>
+                        </a>
+                    </li>
+                    <li id="Tag">
+                        <a href="@Url.Action("Index", "Tag")">
+                            <i class="fa fa-tag"></i>
+                            <span>Tag</span>
+                        </a>
+                    </li>
+                    <li id="Benefit">
+                        <a href="@Url.Action("Index", "Benefit")">
+                            <i class="fa fa-heart"></i>
+                            <span>Benefit</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+        </aside>
+
+        <div class="content-wrapper">
+            @RenderBody()
+        </div>
+
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                Anything I want
+            </div>
+            <strong>Copyright &copy; 2016 </strong> All rights reserved.
+        </footer>
+
+        <aside class="control-sidebar control-sidebar-dark">
+            <ul class="nav nav-justified control-sidebar-tabs">
+                <li class="active">
+                    <a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a>
+                </li>
+                <li>
+                    <a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="control-sidebar-home-tab">
+
+                    <h3 class="control-sidebar-heading">Recent Activity</h3>
+                    <ul class="control-sidebar-menu">
+                        <li>
+                            <a href="javascript::;">
+                                <i class="menu-icon fa fa-tasks bg-red"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">DDD implemented</h4>
+                                    <span class="label label-success">100%</span>
+                                </div>
+                               
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <i class="menu-icon fa fa-database bg-red"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Repository with unit of work implemented</h4>
+                                    <span class="label label-success">100%</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <i class="menu-icon fa fa-tasks bg-red"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">Dependence injection implemented</h4>
+                                    <span class="label label-success">100%</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript::;">
+                                <i class="menu-icon fa fa-tasks bg-red"></i>
+                                <div class="menu-info">
+                                    <h4 class="control-sidebar-subheading">MVC 5 Presentation layer building started</h4>
+                                    <span class="label label-danger">51%</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-pane" id="control-sidebar-settings-tab">
+                    <form method="POST">
+                        <h3 class="control-sidebar-heading">General Settings</h3>
+                        <div class="form-group">
+                            <p>Not implemented yet</p>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </aside>
+        <div class="control-sidebar-bg"></div>
+    </div>
+
+    @Scripts.Render("~/bundles/jqueryAll")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/theme")
+    @Scripts.Render("~/bundles/own")
+
+<script>
+    $(document).ready(function() {
+        var controller = window.location.pathname.split('/')[1];
+        var menuActive = new navigationNS.Active(controller, 'Home', 'ul.sidebar-menu li');
+        menuActive.setCurrent();
+    });
+</script>
+
+@RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,146 @@
+﻿ code {
+    padding: .4em .5em;
+    color: #33658a;
+    background-color: #cee0ed;
+    margin-left: .3em
+}
+
+/*Auto complete*/
+#containerAc {
+    display: block; 
+    position:relative
+} 
+
+.ui-autocomplete {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  width: 100px;
+  padding: 0 10px 0 10px;
+  margin: 0;
+  list-style: none;
+  background-color: #ffffff;
+  border-color: #ccc;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  outline: 0;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius:  0 0 5px 5px;
+  border-radius:  0 0 5px 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+}
+.ui-autocomplete .ui-menu-item > a.ui-corner-all {
+  display: block;
+  font-weight: normal;
+  line-height: 18px;
+  color: #555555;
+  white-space: nowrap;
+}
+
+.ui-state-hover, .ui-state-active {
+    color: #555;
+    text-decoration: none;
+    background-color: #efefef;
+}
+
+.ui-autocomplete .ui-menu-item > a.ui-corner-all.ui-state-hover, .ui-autocomplete .ui-menu-item > a.ui-corner-all.ui-state-active {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-image: none;
+}
+
+/*Nutritional Label*/
+
+.nutritionLabel {
+    font-size: 90%;
+    margin-bottom: 1.1em;
+    margin-left: 3em;
+    padding: .68em;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    border: 2px solid #000;
+    line-height: normal;
+}
+
+.nutritionLabel .title {
+    line-height: .83em;
+    font-size: 2.7em;
+    padding-bottom: 4px;
+    font-family: 'Arial Black';
+    white-space: nowrap;
+    letter-spacing: -2px;
+}
+
+.nutritionLabel .bar1 {
+    height: 10px;
+    line-height: 0;
+    font-size: 1px;
+    background: #333;
+}
+
+.nutritionLabel .line {
+    border-top: 1px solid #333;
+    padding: 1px 0;
+}
+
+ .nutritionLabel .bar2 {
+    height: 5px;
+    line-height: 0;
+    font-size: 1px;
+    background: #333;
+}
+
+.nutritionLabel .line .indent {
+    margin-left: 15px;
+}
+
+.nutritionLabel .footnote {
+    color: #777;
+    padding: 18px 0 0 23px;
+}
+
+.nutritionLabel .star {
+    margin-left: -3px;
+}
+
+.nutritionSummary {
+    padding: 10px;
+}
+
+.nutritionSummary .fact {
+    background-color: #FFF;
+    border: 2px solid;
+    height: 44px;
+    padding-top: 7px;
+    text-align: center;
+    vertical-align: top;
+    width: 74px;
+    margin-left: 15px;
+}
+
+.fat {
+    border-color: #cc0000;
+    color: #cc0000;
+}
+
+.protein {
+    border-color: #0066cc;
+    color: #0066cc;
+}
+
+.carb {
+    border-color: #006400;
+    color: #006400;
+}
+

@@ -1,0 +1,18 @@
+﻿@model ManyToManyVm
+
+   <div id="benefitDll">
+    @using (Ajax.BeginForm("AddBenefit", "Food",
+                    new AjaxOptions
+                    {
+                        HttpMethod = "POST",
+                        OnSuccess = "reloadTable"
+                    }))
+    {
+        <div class="form-group">
+            @Html.DropDownListFor(b => b.SelectId, Model.SelectListItems, "Select a food")
+
+            &nbsp;&nbsp; <button type="submit" class="btn btn-default"><i class="fa fa-save"></i> Save</button>
+        </div>
+        @Html.HiddenFor(m => m.Id)
+    }
+</div>

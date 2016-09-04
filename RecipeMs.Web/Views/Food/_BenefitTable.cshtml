@@ -1,0 +1,41 @@
+﻿@model IEnumerable<BenefitVm>
+
+<div id="foodBenefitTable">
+    <div id="benefitTable" class="box-body table-responsive no-padding">
+        <table class="table table-hover table-striped table-bordered">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(m => m.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.Description)
+                </th>
+            </tr>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td>
+                        No Benefits were found.
+                    </td>
+                </tr>
+            }
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(i => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(i => item.Description)
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Details","Benefit", new {id = item.BenefitId})" data-toggle="tooltip" title="Details"><i class="fa fa-file-text-o"></i></a> |
+                        <a href="#" data-crud-action="/Food/DeleteBenefit" data-crud-table="#foodBenefitTable" data-crud-delete="@item.BenefitId" data-toggle="tooltip" title="Delete" ><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+

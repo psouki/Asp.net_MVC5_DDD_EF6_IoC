@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D54610F1-8756-432C-8760-C3B00874C656}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RecipeMs.Domain</RootNamespace>
+    <AssemblyName>RecipeMs.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Benefits.cs" />
+    <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\Condition.cs" />
+    <Compile Include="Entities\FactDefinition.cs" />
+    <Compile Include="Entities\Food.cs" />
+    <Compile Include="Entities\FoodStage.cs" />
+    <Compile Include="Entities\Ingredient.cs" />
+    <Compile Include="Entities\Measurement.cs" />
+    <Compile Include="Entities\MyList.cs" />
+    <Compile Include="Entities\Nutrient.cs" />
+    <Compile Include="Entities\NutritionalFact.cs" />
+    <Compile Include="Entities\NutritionalLabel.cs" />
+    <Compile Include="Entities\Recipe.cs" />
+    <Compile Include="Entities\Step.cs" />
+    <Compile Include="Entities\Tag.cs" />
+    <Compile Include="Entities\Technique.cs" />
+    <Compile Include="Entities\Tip.cs" />
+    <Compile Include="Entities\ValueSource.cs" />
+    <Compile Include="Interfaces\Repositories\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Repositories\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\Services\IBenefitService.cs" />
+    <Compile Include="Interfaces\Services\ICategoryService.cs" />
+    <Compile Include="Interfaces\Services\IConditionService.cs" />
+    <Compile Include="Interfaces\Services\IFactDefinitionService.cs" />
+    <Compile Include="Interfaces\Services\IFoodService.cs" />
+    <Compile Include="Interfaces\Services\IIngredientService.cs" />
+    <Compile Include="Interfaces\Services\IMeasurementService.cs" />
+    <Compile Include="Interfaces\Services\IMyListService.cs" />
+    <Compile Include="Interfaces\Services\INutritionalFactService.cs" />
+    <Compile Include="Interfaces\Services\IRecipeService.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
+    <Compile Include="Interfaces\Services\IStepService.cs" />
+    <Compile Include="Interfaces\Services\ITagService.cs" />
+    <Compile Include="Interfaces\Services\ITechniqueService.cs" />
+    <Compile Include="Interfaces\Services\ITipService.cs" />
+    <Compile Include="Interfaces\Services\IValueSourceService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BenefitService.cs" />
+    <Compile Include="Services\CategoryService.cs" />
+    <Compile Include="Services\ConditionService.cs" />
+    <Compile Include="Services\FactDefinitionService.cs" />
+    <Compile Include="Services\FoodService.cs" />
+    <Compile Include="Services\FoodStageService.cs" />
+    <Compile Include="Services\IFoodStageService.cs" />
+    <Compile Include="Services\IngredientService.cs" />
+    <Compile Include="Services\MeasurementService.cs" />
+    <Compile Include="Services\RecipeService.cs" />
+    <Compile Include="Services\MyListService.cs" />
+    <Compile Include="Services\NutritionalFactService.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
+    <Compile Include="Services\StepService.cs" />
+    <Compile Include="Services\TagService.cs" />
+    <Compile Include="Services\TechniqueService.cs" />
+    <Compile Include="Services\TipService.cs" />
+    <Compile Include="Services\ValueSourceService.cs" />
+    <Compile Include="Useful\Comparer\NutritionalFactComparer.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

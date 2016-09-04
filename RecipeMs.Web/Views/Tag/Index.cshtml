@@ -1,0 +1,99 @@
+﻿@model IEnumerable<TagVm>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<section class="content-header">
+    <h1>
+        Tags
+        <small>management</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li> <a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#tagTab" data-toggle="tab">Tag</a>
+                    </li>
+                    <li>
+                        <a href="#recipeTab" data-toggle="tab">Recipe</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tagTab">
+                        <div>
+                            <div class="box-header">
+                                @Html.ActionLink("Create New", "Create")
+                                <div class="box-tools">
+                                    @using (Ajax.BeginForm(
+                                        new AjaxOptions
+                                        {
+                                            HttpMethod = "get",
+                                            InsertionMode = InsertionMode.Replace,
+                                            UpdateTargetId = "tagTable"
+                                        }))
+                                    {
+                                        <div class="input-group input-group-sm" style="width: 500px;">
+                                            <input type="search" name="searchTerm" class="form-control pull-right" placeholder="search" data-ac-autocomplete="@Url.Action("AutoComplete")"/>
+                                            <div id="containerAc"></div>
+                                            <div class="input-group-btn">
+                                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            @Html.Partial("_TagTable", Model)
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="recipeTab">
+                        <div class="box box-solid">
+                            <div class="box-header">
+                                <h3 class="box-title">Choose a Tag</h3>
+                            </div>
+                            <div class="box-body">
+                                <div class="box box-default collapsed-box">
+                                    <div class="box-header with-border">
+                                        Add Recipe
+                                        <div class="box-tools pull-right">
+                                            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="box-body">
+                                        <div id="recipeDll"></div>
+                                    </div>
+                                </div>
+                                <div id="foodBenefitTable">
+                                    No tag was chosen.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script>
+        $(document).ready(function() {
+            $("input[data-ac-autocomplete]").each(function () {
+                var control = new searchNS.Autocomplete();
+                var input = $(this);
+                control.createAutocomplete(input);
+            });
+        });
+    </script>
+}
+

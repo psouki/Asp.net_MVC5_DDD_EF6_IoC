@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FoodData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UsdaNutriValue>
+    <NdbNo>01001</NdbNo>
+    <NutrNo>203</NutrNo>
+    <NutrVal>0.85</NutrVal>
+	<Footnote>tralala</Footnote>
+  </UsdaNutriValue>
+  <UsdaNutriValue>
+    <NdbNo>01001</NdbNo>
+    <NutrNo>204</NutrNo>
+    <NutrVal>81.11</NutrVal>
+	<Footnote>tralala</Footnote>
+  </UsdaNutriValue>  
+</FoodData>

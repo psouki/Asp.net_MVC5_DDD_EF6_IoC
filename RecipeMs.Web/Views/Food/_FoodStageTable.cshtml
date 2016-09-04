@@ -1,0 +1,145 @@
+﻿@model IPagedList<FoodStageVm>
+
+
+<div id="foodStageTable">
+    <div id="stageTable" class="box-body table-responsive no-padding">
+        <table class="table table-hover table-striped table-bordered">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(m => m.First().Initial)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.First().Final)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.First().Complement)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.First().RefuseDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.First().RefusePercentage)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.First().ProteinCalorieFactor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.First().FatCalorieFactor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.First().CarbCalorieFactor)
+                </th>
+                <th></th>
+
+            </tr>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td>
+                        No Food Stages were found.
+                    </td>
+                </tr>
+            }
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(i => item.Initial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(i => item.Final)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(i => item.Complement)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RefuseDescription)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RefusePercentage)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ProteinCalorieFactor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FatCalorieFactor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CarbCalorieFactor)
+                    </td>
+                    <td>
+                        @*made to test ajax.actionlink performance*@
+                        @Ajax.ActionLink(" ", "EditFoodStage", new { id = item.FoodStageId }, new AjaxOptions
+                   {
+                       UpdateTargetId = "FoodStageMgmContent",
+                       InsertionMode = InsertionMode.Replace,
+                       HttpMethod = "GET",
+                       OnSuccess = "EditFoodStage"
+                   }, new { @class = "fa fa-edit", data_toggle = "tooltip", title = "Edit" })
+                        |
+
+                        @Ajax.ActionLink(" ", "BuildNutritionalLabel", new { id = item.FoodStageId }, new AjaxOptions
+                   {
+                       OnSuccess = "buildNutritionalLabel(data);"
+                   }, new { @class = "fa fa-list-alt", data_toggle = "tooltip", title = "Nutritional facts" })
+
+                        <a href="#" data-crud-action="/Food/DeleteFoodStage" data-crud-table="#foodStageTable" data-crud-delete="@item.FoodStageId" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <div class="pagedList" data-pl-target="#foodStageTable">
+            @Html.PagedListPager(Model, page => Url.Action("PopulateFoodStageTable", new { page }), new PagedListRenderOptions()
+       {
+           DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+           DisplayLinkToLastPage = PagedListDisplayMode.Never,
+           DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+           DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+           DisplayPageCountAndCurrentLocation = true
+       })
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-5">
+            <div id="NutritionalLabel" class="nutritionLabel hidden">
+
+
+            </div>
+        </div>
+        <div id="summaryLegend" class="col-sm-2 hidden">
+            Nutritional Summary:
+            <div class="well">
+                <div class="row text-bold">
+                    Calories : <span id="summaryCalorie"></span>
+                </div>
+                <div class="row">
+                    <i class="fa fa-stop fat"></i> Fat
+                </div>
+                <div class="row">
+                    <i class="fa fa-stop carb"></i> Carbohydrate
+                </div>
+                <div class="row">
+                    <i class="fa fa-stop protein"></i> Protien
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="nutritionSummary">
+                <div id="summaryValues" class="row">
+                    
+                </div>
+                <div id="canvasChart" class="row">
+                    <canvas id="calorieDistribution" width="265" height="31"></canvas>
+                    
+                </div>
+                <div id="summaryPercentages" class="row">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

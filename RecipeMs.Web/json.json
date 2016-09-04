@@ -1,0 +1,147 @@
+﻿{
+  "Amount": 100.0,
+  "Calories": 93.000,
+  "CaloriesFromFat": 1.08810,
+  "CaloriesFromProtein": 6.95000,
+  "CaloriesFromCarb": 85.23450,
+  "FatPercentage": 1.0,
+  "ProteinPercentage": 7.0,
+  "CarbPercentage": 92.0,
+  "Nutrients": [
+    {
+      "Name": "Protein",
+      "Unit": "g",
+      "Value": 2.50,
+      "Percentage": 0.04,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 600
+    },
+    {
+      "Name": "Total Fat",
+      "Unit": "g",
+      "Value": 0.13,
+      "Percentage": 0.00,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 100
+    },
+    {
+      "Name": "Total Carbohydrate",
+      "Unit": "g",
+      "Value": 21.15,
+      "Percentage": 0.14,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 500
+    },
+    {
+      "Name": "Water",
+      "Unit": "g",
+      "Value": 74.89,
+      "Percentage": 0.02,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 10
+    },
+    {
+      "Name": "Sugars",
+      "Unit": "g",
+      "Value": 1.18,
+      "Percentage": 0.03,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 520
+    },
+    {
+      "Name": "Dietary Fiber",
+      "Unit": "g",
+      "Value": 2.2,
+      "Percentage": 0.09,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 510
+    },
+    {
+      "Name": "Calcium",
+      "Unit": "mg",
+      "Value": 15.0,
+      "Percentage": 0.02,
+      "IsPrincipal": true,
+      "Type": 2,
+      "Order": 320
+    },
+    {
+      "Name": "Iron",
+      "Unit": "mg",
+      "Value": 1.08,
+      "Percentage": 0.11,
+      "IsPrincipal": true,
+      "Type": 2,
+      "Order": 330
+    },
+    {
+      "Name": "Sodium",
+      "Unit": "mg",
+      "Value": 10.0,
+      "Percentage": 6.67,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 310
+    },
+    {
+      "Name": "Vitamin A, IU",
+      "Unit": "IU",
+      "Value": 10.0,
+      "Percentage": 0.00,
+      "IsPrincipal": true,
+      "Type": 2,
+      "Order": 710
+    },
+    {
+      "Name": "Vitamin C",
+      "Unit": "mg",
+      "Value": 9.6,
+      "Percentage": 0.11,
+      "IsPrincipal": true,
+      "Type": 2,
+      "Order": 740
+    },
+    {
+      "Name": "Vitamin B-6",
+      "Unit": "mg",
+      "Value": 0.311,
+      "Percentage": 0.24,
+      "IsPrincipal": true,
+      "Type": 2,
+      "Order": 724
+    },
+    {
+      "Name": "Saturated Fat",
+      "Unit": "g",
+      "Value": 0.035,
+      "Percentage": 0.0,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 110
+    },
+    {
+      "Name": "Monounsaturated Fat",
+      "Unit": "g",
+      "Value": 0.003,
+      "Percentage": 0.0,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 140
+    },
+    {
+      "Name": "Polyunsaturated Fat",
+      "Unit": "g",
+      "Value": 0.058,
+      "Percentage": 0.00,
+      "IsPrincipal": true,
+      "Type": 1,
+      "Order": 160
+    }
+  ]
+}

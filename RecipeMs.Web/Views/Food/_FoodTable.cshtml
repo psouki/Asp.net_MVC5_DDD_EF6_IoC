@@ -1,0 +1,51 @@
+﻿@using MvcExtensionsLibrary
+@model IPagedList<FoodVm>
+
+<div id="foodTable" class="box-body table-responsive no-padding">
+    <table class="table table-hover table-striped table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(m => m.First().Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.First().FoodGroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.First().FoodSubgroup)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FoodGroup)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FoodSubgroup)
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", new {id = item.FoodId})" data-toggle="tooltip" title="Edit"><i class="fa fa-edit"></i></a> |
+                    <a href="@Url.Action("Delete", new {id = item.FoodId})" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></a> |
+                    <a href="@Url.Action("PopulateBenifitTable", new {id = item.FoodId})" data-toggle="tooltip" title="Benefits" data-crud-name="@item.Name" data-crud-id="@item.FoodId" data-crud-target="#benefitDll" data-crud-table="#foodBenefitTable" data-crud-idname="#Id"><i class="fa fa-heart"></i></a>
+                    <a href="@Url.Action("PopulateFoodStageTable", new {id = item.FoodId})" data-toggle="tooltip" title="Food stages" data-crud-name="@item.Name" data-crud-id="@item.FoodId" data-crud-target="#foodStageMgm" data-crud-table="#foodStageTable" data-crud-idname="#FoodId"><i class="fa fa-signal"></i></a>
+                </td>
+            </tr>
+        }
+    </table>
+    <div class="pagedList" data-pl-target="#foodTable">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions()
+   {
+       DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+       DisplayLinkToLastPage = PagedListDisplayMode.Never,
+       DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+       DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+       DisplayPageCountAndCurrentLocation = true
+   })
+    </div>
+
+</div>
+

@@ -1,0 +1,266 @@
+﻿@model IPagedList<FoodVm>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<section class="content-header">
+    <h1>
+        Foods
+        <small>management</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li> <a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#foodTab" data-toggle="tab">Food</a>
+                    </li>
+                    <li>
+                        <a href="#benefitTab" data-toggle="tab">Benefits</a>
+                    </li>
+                    <li>
+                        <a href="#foodStageTab" data-toggle="tab">Food Stages</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="foodTab">
+                        <div>
+                            <div class="box-header">
+                                @Html.ActionLink("Create New", "Create")
+                                <div class="box-tools">
+                                    @using (Ajax.BeginForm(
+                                            new AjaxOptions
+                                            {
+                                                HttpMethod = "get",
+                                                InsertionMode = InsertionMode.Replace,
+                                                UpdateTargetId = "foodTable"
+                                            }))
+                                    {
+                                        <div class="input-group input-group-sm" style="width: 500px;">
+                                            <input type="search" name="searchTerm" class="form-control pull-right" placeholder="search" data-ac-autocomplete="@Url.Action("AutoComplete")" />
+                                            <div id="containerAc"></div>
+                                            <div class="input-group-btn">
+                                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                            @Html.Partial("_FoodTable", Model)
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="benefitTab">
+                        <div class="box box-solid">
+                            <div class="box-header">
+                                <h3 class="box-title">Choose a food</h3>
+                            </div>
+                            <div class="box-body">
+                                <div class="box box-default collapsed-box">
+                                    <div class="box-header with-border">
+                                        Add Benefit
+                                        <div class="box-tools pull-right">
+                                            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                                <i class="fa fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="box-body">
+                                        <div id="benefitDll"></div>
+                                    </div>
+                                </div>
+                                <div id="foodBenefitTable">
+                                    No food was chosen.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="foodStageTab">
+                        <div class="box box-solid">
+                            <div class="box-header">
+                                <h3 class="box-title">Choose a food</h3>
+                            </div>
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-sm-1">
+                                        <a id="showAddFoodStage" href="#" class="btn btn-sm btn-primary" data-crud-target="#FoodStageMgmContent">Add &nbsp; <i class="fa fa-signal"></i></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-11">
+                                        <div id="foodStageMgmPanel" class="panel panel-primary hidden">
+                                            <div class="panel-heading">
+                                                <h1 class="panel-title"></h1>
+                                            </div>
+
+                                            <div class="panel-body">
+                                                <div id="FoodStageMgmContent">
+                                                    @Html.Partial("_FoodStageMgm", new FoodStageVm())
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-11">
+                                        <div id="foodStageTable">
+                                            No food was chosen.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+@section Scripts{
+    <script src="~/Scripts/Own/NutritionalLabel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("input[data-ac-autocomplete]").each(function () {
+                var control = new searchNS.Autocomplete();
+                var input = $(this);
+                control.createAutocomplete(input);
+            });
+
+            $('.content-wrapper').on('click', '#foodTable a[data-crud-name]', function () {
+                var link = $(this);
+                var table = link.attr('data-crud-table');
+
+                var crud;
+                if (table === '#foodBenefitTable') {
+                    crud = new crudNs.Tab(link, '#benefitTab');
+                } else {
+                    crud = new crudNs.Tab(link, '#foodStageTab');
+                }
+                crud.init();
+                return false;
+            });
+
+            populateBenefitDdl();
+
+            $('.content-wrapper').on('click', '#benefitTable a[data-crud-delete]', function () {
+                var link = $(this);
+                var parentId = $('#Id').val();
+                var childId = link.attr('data-crud-delete');
+                var crud = new crudNs.Tab(link);
+                crud.removeChild(parentId, childId);
+                return false;
+            });
+
+            $('.content-wrapper').on('click', '#stageTable a[data-crud-delete]', function () {
+                var link = $(this);
+                var parentId = $('#FoodId').val();
+                var childId = link.attr('data-crud-delete');
+                var crud = new crudNs.Tab(link);
+                crud.removeChild(parentId, childId);
+                return false;
+            });
+
+            var pagination = new navigationNS.Pagination();
+
+            $('.content-wrapper').on('click', '.pagedList a', pagination.getPage);
+
+            $('.content-wrapper').on('click', '#showAddFoodStage', function () {
+                var id = $('#foodStageMgm #FoodId').val();
+                if (id > 0) {
+                    $('#foodStageMgmPanel').removeClass('hidden');
+                    $('#showAddFoodStage').addClass('hidden');
+                    $('#foodStageMgmPanel h1').html('Add Foot Stage');
+                    var link = $(this);
+                    var hrefAttr = ['Food', 'AddFoodStage', id];
+                    var href = '/' + hrefAttr.join('/');
+                    link.attr('href', href);
+                    var crud = new crudNs.Tab(link);
+                    crud.populateDll();
+                }
+                return false;
+            });
+
+            $('.content-wrapper').on('click', '#cancelFoodStageCreation', function () {
+                $('#showAddFoodStage').removeClass('hidden');
+                $('#foodStageMgmPanel').addClass('hidden');
+                return false;
+            });
+
+        });
+
+        var populateBenefitDdl = function () {
+            var hrefAttr = ['Food', 'PopulateBenefitForFoods', 0];
+            var href = '/' + hrefAttr.join('/');
+            var a = document.createElement('a');
+            a.href = href;
+            $(a).attr('data-crud-target', '#benefitDll');
+
+            var link = $(a);
+            var crud = new crudNs.Tab(link);
+            crud.populateDll();
+        }
+
+        var reloadTable = function () {
+            var selectedTab = $('.nav-tabs').find('li.active');
+            var tabName = selectedTab.find('a').attr('href');
+
+            var a = document.createElement('a');
+            var id;
+            var hrefAttr;
+            var href;
+
+            if (tabName === '#benefitTab') {
+                id = $('#Id').val();
+                hrefAttr = ['Food', 'PopulateBenifitTable', id];
+                href = '/' + hrefAttr.join('/');
+                a.href = href;
+                $(a).attr('data-crud-table', '#foodBenefitTable');
+            } else if (tabName === '#foodStageTab') {
+                id = $('#FoodId').val();
+                hrefAttr = ['Food', 'PopulateFoodStageTable', id];
+                href = '/' + hrefAttr.join('/');
+                a.href = href;
+                $(a).attr('data-crud-table', '#foodStageTable');
+
+                $('#showAddFoodStage').removeClass('hidden');
+                $('#foodStageMgmPanel').addClass('hidden');
+            }
+
+            var link = $(a);
+            var crud = new crudNs.Tab(link);
+            crud.populateTable();
+        };
+
+        var EditFoodStage = function() {
+            $('#foodStageMgmPanel').removeClass('hidden');
+            $('#showAddFoodStage').addClass('hidden');
+            $('#foodStageMgmPanel h1').html('Edit');
+        }
+
+        var buildNutritionalLabel = function (data) {
+            $('#NutritionalLabel').removeClass('hidden');
+            $('#summaryLegend').removeClass('hidden');
+            
+            var nutritionalFacts = JSON.parse(data);
+
+            var label = new nutriLabelNS.Build(nutritionalFacts);
+            label.init();
+
+            var summary = new nutriLabelNS.Summary(nutritionalFacts);
+            summary.init();
+        }
+        
+    </script>
+}
+
+

@@ -1,0 +1,45 @@
+﻿@using MvcExtensionsLibrary
+@model IPagedList<FoodVm>
+
+<div id="foodTable" class="box-body table-responsive no-padding">
+    <table class="table table-hover table-striped table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(m => m.First().Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.First().FoodGroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m => m.First().FoodSubgroup)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FoodGroup)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FoodSubgroup)
+                </td>
+            </tr>
+        }
+    </table>
+    <div class="pagedList" data-pl-target="#foodTable">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions()
+   {
+       DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+       DisplayLinkToLastPage = PagedListDisplayMode.Never,
+       DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+       DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+       DisplayPageCountAndCurrentLocation = true
+   })
+    </div>
+
+</div>
+

@@ -1,0 +1,113 @@
+﻿@model FoodStageVm
+
+
+<div id="FoodStageMgmContent">
+    @using (Ajax.BeginForm("AddFoodStage", "Food",
+                                    new AjaxOptions
+                                    {
+                                        HttpMethod = "POST",
+                                        OnSuccess = "reloadTable"
+                                    }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-sm-11">
+            <div id="foodStageMgm" class="form-horizontal">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(m => m.FoodStageId)
+                @Html.HiddenFor(m => m.FoodId)
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Initial, new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @if (ViewBag.Initials != null)
+                        {
+                            @Html.DropDownListFor(m => m.Initial, (SelectList)ViewBag.Initials, "Select a intial stage", new { @class = "form-control" })
+                        }
+                        @Html.ValidationMessageFor(model => model.Initial, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Final, new { @class = "control-label col-md-2" })
+                    <div class="col-md-6">
+                        @if (ViewBag.Finals != null)
+                        {
+                            @Html.DropDownListFor(m => m.Final, (SelectList)ViewBag.Finals, "Select a final stage", new { @class = "form-control" })
+                        }
+                        @Html.ValidationMessageFor(model => model.Final, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Complement, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Complement, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Complement, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.RefuseDescription, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.RefuseDescription, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.RefuseDescription, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.RefusePercentage, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.RefusePercentage, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.RefusePercentage, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FatCalorieFactor, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.FatCalorieFactor, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.FatCalorieFactor, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ProteinCalorieFactor, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.ProteinCalorieFactor, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.ProteinCalorieFactor, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.CarbCalorieFactor, new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.CarbCalorieFactor, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.CarbCalorieFactor, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Save" class="btn btn-default" />
+                        <a href="#" id="cancelFoodStageCreation" class="btn btn-default">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('#cancelFoodStageCreation').on('click', function() {
+                $('#showAddFoodStage').removeClass('hide');
+                $('#foodStageMgmPanel').addClass('hide');
+                return false;
+            });
+        });
+    </script>
+}

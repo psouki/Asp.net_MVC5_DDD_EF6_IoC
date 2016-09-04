@@ -1,0 +1,2162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FoodData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UsdaFood>
+		<UsdaRefId>14054</UsdaRefId>
+		<Name> almond milk, chocolate</Name>
+		<InitialStage> ready-to-drink</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14016</UsdaRefId>
+		<Name> almond milk, vanilla flavor, sweetened</Name>
+		<InitialStage> ready-to-drink</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14004</UsdaRefId>
+		<Name> beer, BUDWEISER, regular</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14006</UsdaRefId>
+		<Name> beer, light</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.87</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14007</UsdaRefId>
+		<Name> beer, light, BUD LIGHT</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14005</UsdaRefId>
+		<Name> beer, light, BUDWEISER SELECT</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14013</UsdaRefId>
+		<Name> beer, light, MICHELOB ULTRA</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14003</UsdaRefId>
+		<Name> beer, regular</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.87</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14083</UsdaRefId>
+		<Name> Chocolate malt</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with fat free milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14063</UsdaRefId>
+		<Name> chocolate powder, no sugar added</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14090</UsdaRefId>
+		<Name> Coconut water</Name>
+		<InitialStage> ready-to-drink</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14034</UsdaRefId>
+		<Name> creme de menthe, 72 proof</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.44</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14009</UsdaRefId>
+		<Name> daiquiri</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.4</ProteinFactor>
+		<FatFactor>8.4</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14010</UsdaRefId>
+		<Name> daiquiri all (gin,rum,vodka,whiskey) 80 proof</Name>
+		<FinalStage> prepared-from-recipe</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14060</UsdaRefId>
+		<Name> Energy Drink with carbonated water and high fructose corn syrup</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14061</UsdaRefId>
+		<Name> Energy Drink, sugar free</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14636</UsdaRefId>
+		<Name> fruit juice drink, reduced sugar with vitamin E added</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.8</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14460</UsdaRefId>
+		<Name> Gatorade</Name>
+		<FinalStage> ready-to-drink.</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14049</UsdaRefId>
+		<Name> gin, 90 proof</Name>
+		<InitialStage> distilled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14076</UsdaRefId>
+		<Name> Glacial Natural spring water</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14071</UsdaRefId>
+		<Name> Green tea</Name>
+		<InitialStage>brewed from bags</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14072</UsdaRefId>
+		<Name> Green tea</Name>
+		<InitialStage> brewed from bags</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14070</UsdaRefId>
+		<Name> Green tea</Name>
+		<InitialStage> brewed from bags</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14415</UsdaRefId>
+		<Name> liqueur coffee with cream, 34 proof</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.2</ProteinFactor>
+		<FatFactor>8.8</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14534</UsdaRefId>
+		<Name> liqueur coffee, 63 proof</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14064</UsdaRefId>
+		<Name> Orange juice, light, No pulp</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14409</UsdaRefId>
+		<Name> Orange-flavor drink, breakfast type, low calorie</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14309</UsdaRefId>
+		<Name> OVALTINE, Classic Malt</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14080</UsdaRefId>
+		<Name> Ovaltine, rich chocolate</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14017</UsdaRefId>
+		<Name> pina colada</Name>
+		<FinalStage> prepared-from-recipe</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14015</UsdaRefId>
+		<Name> pina colada</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.4</ProteinFactor>
+		<FatFactor>8.5</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14461</UsdaRefId>
+		<Name> POWERADE, lemon-lime flavored</Name>
+		<InitialStage> ready-to-drink</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>43479</UsdaRefId>
+		<Name> rice (sake)</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14050</UsdaRefId>
+		<Name> rum, 80 proof</Name>
+		<InitialStage> distilled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14635</UsdaRefId>
+		<Name> vegetable and fruit juice blend, 100% juice, with added vitamins A, C, E</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14051</UsdaRefId>
+		<Name> vodka, 80 proof</Name>
+		<InitialStage> distilled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14605</UsdaRefId>
+		<Name> Water with added vitamins and minerals, sweetened assorted fruit flavors</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14075</UsdaRefId>
+		<Name> water, mineral, naturally sparkling (carbonated)</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14031</UsdaRefId>
+		<Name> water, yumberry pomegranate, with anti-oxidants</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>43369</UsdaRefId>
+		<Name> whey and milk based</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14058</UsdaRefId>
+		<Name> Whey protein powder isolate</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14025</UsdaRefId>
+		<Name> whiskey sour</Name>
+		<InitialStage> whiskey and powder mix</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14531</UsdaRefId>
+		<Name> whiskey sour</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14027</UsdaRefId>
+		<Name> whiskey sour</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.4</ProteinFactor>
+		<FatFactor>8.4</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14052</UsdaRefId>
+		<Name> whiskey, 86 proof</Name>
+		<InitialStage> distilled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>43154</UsdaRefId>
+		<Name> wine, cooking</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14160</UsdaRefId>
+		<Name> wine, dry</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>43155</UsdaRefId>
+		<Name> wine, light</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14084</UsdaRefId>
+		<Name> wine, red</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14100</UsdaRefId>
+		<Name> wine, red, Barbera</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14140</UsdaRefId>
+		<Name> wine, red, Burgundy</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14097</UsdaRefId>
+		<Name> wine, red, Cabernet Franc</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14096</UsdaRefId>
+		<Name> wine, red, Cabernet Sauvignon</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14108</UsdaRefId>
+		<Name> wine, red, Carignane</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14103</UsdaRefId>
+		<Name> wine, red, Claret</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14152</UsdaRefId>
+		<Name> wine, red, Gamay</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14106</UsdaRefId>
+		<Name> wine, red, Lemberger</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14536</UsdaRefId>
+		<Name> wine, red, Merlot</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14158</UsdaRefId>
+		<Name> wine, red, Mouvedre</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14102</UsdaRefId>
+		<Name> wine, red, Petite Sirah</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14098</UsdaRefId>
+		<Name> wine, red, Pinot Noir</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14107</UsdaRefId>
+		<Name> wine, red, Sangiovese</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14099</UsdaRefId>
+		<Name> wine, red, Syrah</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14101</UsdaRefId>
+		<Name> wine, red, Zinfandel</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14602</UsdaRefId>
+		<Name> wine, table</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14105</UsdaRefId>
+		<Name> wine, white</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14159</UsdaRefId>
+		<Name> wine, white, Chardonnay</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14113</UsdaRefId>
+		<Name> wine, white, Chenin Blanc</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14116</UsdaRefId>
+		<Name> wine, white, Fume Blanc</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>3.87</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14120</UsdaRefId>
+		<Name> wine, white, Gewurztraminer</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14124</UsdaRefId>
+		<Name> wine, white, late harvest</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14134</UsdaRefId>
+		<Name> wine, white, late harvest</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14117</UsdaRefId>
+		<Name> wine, white, Muller Thurgau</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14138</UsdaRefId>
+		<Name> wine, white, Muscat</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14135</UsdaRefId>
+		<Name> wine, white, Pinot Blanc</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14109</UsdaRefId>
+		<Name> wine, white, Pinot Gris (Grigio)</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14126</UsdaRefId>
+		<Name> wine, white, Riesling</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14132</UsdaRefId>
+		<Name> wine, white, Sauvignon Blanc</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14125</UsdaRefId>
+		<Name> wine, white, Semillon</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.92</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14552</UsdaRefId>
+		<Name>Carbonated beverage, chocolate-flavored soda</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14121</UsdaRefId>
+		<Name>Carbonated beverage, club soda</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14148</UsdaRefId>
+		<Name>Carbonated beverage, cola</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14416</UsdaRefId>
+		<Name>Carbonated beverage, cola or pepper-type, contains caffeine low calorie with aspartame</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14146</UsdaRefId>
+		<Name>Carbonated beverage, cola or pepper-type, without caffeine low calorie with aspartame</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14166</UsdaRefId>
+		<Name>Carbonated beverage, cola or pepper-types, contains caffeine low calorie with sodium saccharin</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.87</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.36</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14149</UsdaRefId>
+		<Name>Carbonated beverage, cola, contains caffeine and sweeteners reduced sugar</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14147</UsdaRefId>
+		<Name>Carbonated beverage, cola, without caffeine</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14130</UsdaRefId>
+		<Name>Carbonated beverage, cream soda</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14400</UsdaRefId>
+		<Name>Carbonated beverage, fast-food cola, contains caffeine</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14136</UsdaRefId>
+		<Name>Carbonated beverage, ginger ale</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14142</UsdaRefId>
+		<Name>Carbonated beverage, grape soda</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14144</UsdaRefId>
+		<Name>Carbonated beverage, lemon-lime soda, no caffeine</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14150</UsdaRefId>
+		<Name>Carbonated beverage, orange</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14151</UsdaRefId>
+		<Name>Carbonated beverage, other than cola or pepper, contains caffeine low calorie with aspartame</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14143</UsdaRefId>
+		<Name>Carbonated beverage, other than cola or pepper, without caffeine low calorie</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14537</UsdaRefId>
+		<Name>Carbonated beverage, other than cola or pepper, without caffeine low calorie with sodium saccharin</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14153</UsdaRefId>
+		<Name>Carbonated beverage, pepper-type, contains caffeine</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14145</UsdaRefId>
+		<Name>Carbonated beverage, SPRITE</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14155</UsdaRefId>
+		<Name>Carbonated beverage, tonic water</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.87</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14169</UsdaRefId>
+		<Name>Carob-flavor beverage mix</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14168</UsdaRefId>
+		<Name>Carob-flavor beverage mix</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14181</UsdaRefId>
+		<Name>Chocolate syrup</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14177</UsdaRefId>
+		<Name>Chocolate-flavor beverage mix</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14558</UsdaRefId>
+		<Name>Chocolate-flavor beverage mix for milk, with added nutrients</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14557</UsdaRefId>
+		<Name>Chocolate-flavor beverage mix for milk, with added nutrients</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14263</UsdaRefId>
+		<Name>Citrus fruit juice drink</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14262</UsdaRefId>
+		<Name>Citrus fruit juice drink</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14187</UsdaRefId>
+		<Name>Clam and tomato juice</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.8</ProteinFactor>
+		<FatFactor>8.8</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>44203</UsdaRefId>
+		<Name>Cocktail mix, non-alcoholic</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14194</UsdaRefId>
+		<Name>Cocoa mix</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14192</UsdaRefId>
+		<Name>Cocoa mix</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14196</UsdaRefId>
+		<Name>Cocoa mix, no sugar added</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14197</UsdaRefId>
+		<Name>Cocoa mix, Rich Chocolate Hot Cocoa Mix</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14390</UsdaRefId>
+		<Name>Cocoa mix, with aspartame</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14209</UsdaRefId>
+		<Name>Coffee</Name>
+		<InitialStage> brewed from grounds</InitialStage>
+		<FinalStage> prepared with tap water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14204</UsdaRefId>
+		<Name>Coffee and cocoa (mocha), decaffeinated with whitener and low calorie sweetener</Name>
+		<InitialStage>powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14237</UsdaRefId>
+		<Name>Coffee substitute, cereal grain beverage</Name>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14421</UsdaRefId>
+		<Name>Coffee substitute, cereal grain beverage</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14236</UsdaRefId>
+		<Name>Coffee substitute, cereal grain beverage</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14201</UsdaRefId>
+		<Name>Coffee, decaffeinated</Name>
+		<InitialStage> brewed from grounds</InitialStage>
+		<FinalStage> prepared with tap water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14210</UsdaRefId>
+		<Name>Coffee, espresso</Name>
+		<InitialStage> brewed</InitialStage>
+		<FinalStage> restaurant-prepared</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14202</UsdaRefId>
+		<Name>Coffee, espresso, decaffeinated</Name>
+		<InitialStage> brewed</InitialStage>
+		<FinalStage> restaurant-prepared</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14219</UsdaRefId>
+		<Name>Coffee, instant, decaffeinated</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14218</UsdaRefId>
+		<Name>Coffee, instant, decaffeinated</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14203</UsdaRefId>
+		<Name>Coffee, instant, regular</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14214</UsdaRefId>
+		<Name>Coffee, instant, regular</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14215</UsdaRefId>
+		<Name>Coffee, instant, regular</Name>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14222</UsdaRefId>
+		<Name>Coffee, instant, with chicory</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.2</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.1</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14223</UsdaRefId>
+		<Name>Coffee, instant, with chicory</Name>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14224</UsdaRefId>
+		<Name>Coffee, instant, with sugar</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>43401</UsdaRefId>
+		<Name>Coffee, reduced calorie without caffeine with whitener</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14431</UsdaRefId>
+		<Name>Cranberry juice cocktail</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14242</UsdaRefId>
+		<Name>Cranberry juice cocktail</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14430</UsdaRefId>
+		<Name>Cranberry juice cocktail</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14243</UsdaRefId>
+		<Name>Cranberry juice cocktail, low calorie saccharin and corn sweetener with calcium</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14238</UsdaRefId>
+		<Name>Cranberry-apple juice drink</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>43404</UsdaRefId>
+		<Name>Cranberry-apple juice drink, low calorie with vitamin C added</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14240</UsdaRefId>
+		<Name>Cranberry-apricot juice drink</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14241</UsdaRefId>
+		<Name>Cranberry-grape juice drink</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14423</UsdaRefId>
+		<Name>Dairy drink mix, chocolate, reduced calorie with aspartame</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with water and ice</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14450</UsdaRefId>
+		<Name>Drink mix, GATORADE, orange flavor</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14245</UsdaRefId>
+		<Name>Eggnog-flavor mix</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14625</UsdaRefId>
+		<Name>Energy drink</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14627</UsdaRefId>
+		<Name>Energy Drink, Monster</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14022</UsdaRefId>
+		<Name>energy drink, MONSTER, low carb</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14156</UsdaRefId>
+		<Name>Energy drink, RED BULL, with added caffeine sugar free niacin pantothenic acid</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14628</UsdaRefId>
+		<Name>Energy drink, sugar free</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14646</UsdaRefId>
+		<Name>Fruit flavored drink containing less than 3% fruit juice, with high vitamin C</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14645</UsdaRefId>
+		<Name>Fruit flavored drink, less than 3% juice, not fortified with vitamin C</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14648</UsdaRefId>
+		<Name>Fruit juice drink, greater than 3% fruit juice, high vitamin C and added thiamin</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14651</UsdaRefId>
+		<Name>Fruit juice drink, greater than 3% juice, high vitamin C</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14269</UsdaRefId>
+		<Name>Fruit punch drink</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14268</UsdaRefId>
+		<Name>Fruit punch drink</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14267</UsdaRefId>
+		<Name>Fruit punch drink, with added nutrients</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14264</UsdaRefId>
+		<Name>Fruit punch drink, without added nutrients</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14406</UsdaRefId>
+		<Name>Fruit punch juice drink</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14405</UsdaRefId>
+		<Name>Fruit punch juice drink</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14541</UsdaRefId>
+		<Name>Fruit punch-flavor drink, without added sodium</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>43345</UsdaRefId>
+		<Name>Fruit-flavored drink low calorie with high vitamin C with other added vitamins</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>2.47</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>42055</UsdaRefId>
+		<Name>Fruit-flavored drink, low calorie with aspartame</Name>
+		<InitialStage> dry powdered mix</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>2.47</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14277</UsdaRefId>
+		<Name>Grape drink</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14282</UsdaRefId>
+		<Name>Grape juice drink</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14649</UsdaRefId>
+		<Name>Hibiscus tea</Name>
+		<InitialStage> brewed from calyces</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14288</UsdaRefId>
+		<Name>Lemonade</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14287</UsdaRefId>
+		<Name>Lemonade</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.8</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14543</UsdaRefId>
+		<Name>Lemonade, pink</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14542</UsdaRefId>
+		<Name>Lemonade, pink</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.8</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14293</UsdaRefId>
+		<Name>Lemonade, white</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14292</UsdaRefId>
+		<Name>Lemonade, white</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.8</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14297</UsdaRefId>
+		<Name>Lemonade-flavor drink</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14296</UsdaRefId>
+		<Name>Lemonade-flavor drink</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.8</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14303</UsdaRefId>
+		<Name>Limeade</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14414</UsdaRefId>
+		<Name>liqueur coffee, 53 proof</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14305</UsdaRefId>
+		<Name>Malt beverage, includes non-alcoholic beer</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.87</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14312</UsdaRefId>
+		<Name>Malted drink mix</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14318</UsdaRefId>
+		<Name>Malted drink mix, chocolate</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14317</UsdaRefId>
+		<Name>Malted drink mix, chocolate</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14316</UsdaRefId>
+		<Name>Malted drink mix, chocolate, with added nutrients</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14311</UsdaRefId>
+		<Name>Malted drink mix, mocha-flavor, has milk</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14310</UsdaRefId>
+		<Name>Malted drink mix, with added nutrients</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14119</UsdaRefId>
+		<Name>Mixed vegetable and fruit juice drink, with added nutrients</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14327</UsdaRefId>
+		<Name>Orange and apricot juice drink</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14436</UsdaRefId>
+		<Name>Orange breakfast drink, with added nutrients</Name>
+		<InitialStage> ready-to-drink</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14427</UsdaRefId>
+		<Name>Orange drink, breakfast type, with juice and pulp</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14426</UsdaRefId>
+		<Name>Orange drink, breakfast type, with juice and pulp</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14323</UsdaRefId>
+		<Name>Orange drink, with added vitamin C</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>42270</UsdaRefId>
+		<Name>Orange juice drink </Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14408</UsdaRefId>
+		<Name>Orange-flavor drink, breakfast type</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14407</UsdaRefId>
+		<Name>Orange-flavor drink, breakfast type</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14425</UsdaRefId>
+		<Name>Orange-flavor drink, breakfast type, with pulp</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<FinalStage> prepared with water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14424</UsdaRefId>
+		<Name>Orange-flavor drink, breakfast type, with pulp</Name>
+		<InitialStage> frozen concentrate</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14334</UsdaRefId>
+		<Name>Pineapple and grapefruit juice drink</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14341</UsdaRefId>
+		<Name>Pineapple and orange juice drink</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.36</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14639</UsdaRefId>
+		<Name>Rice drink, with added calcium vitamins A and D</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14428</UsdaRefId>
+		<Name>Shake, fast food, strawberry</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.27</ProteinFactor>
+		<FatFactor>8.8</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14347</UsdaRefId>
+		<Name>Shake, fast food, vanilla</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.27</ProteinFactor>
+		<FatFactor>8.8</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14351</UsdaRefId>
+		<Name>Strawberry-flavor beverage mix</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared with whole milk</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14350</UsdaRefId>
+		<Name>Strawberry-flavor beverage mix</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.9</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14544</UsdaRefId>
+		<Name>Tea, black</Name>
+		<InitialStage> brewed</InitialStage>
+		<FinalStage> prepared with distilled water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.44</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.57</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14355</UsdaRefId>
+		<Name>Tea, black</Name>
+		<InitialStage> brewed</InitialStage>
+		<FinalStage> prepared with tap water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.44</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.57</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14352</UsdaRefId>
+		<Name>Tea, black, decaffeinated</Name>
+		<InitialStage> brewed</InitialStage>
+		<FinalStage> prepared with tap water</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14545</UsdaRefId>
+		<Name>Tea, chamomile</Name>
+		<InitialStage> brewed</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.44</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.57</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14381</UsdaRefId>
+		<Name>Tea, herb</Name>
+		<InitialStage> brewed</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.44</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.57</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14353</UsdaRefId>
+		<Name>Tea, instant, decaffeinated unsweetened</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14356</UsdaRefId>
+		<Name>Tea, instant, lemon-flavored, decaffeinated sweetened with non-nutritive sweetener</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.44</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.8</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14375</UsdaRefId>
+		<Name>Tea, instant, lemon-flavored, sweetened with sodium saccharin</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.44</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.8</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14548</UsdaRefId>
+		<Name>Tea, instant, lemon-flavored, sweetened with sugar with added ascorbic acid</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.44</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14370</UsdaRefId>
+		<Name>Tea, instant, lemon-flavored, sweetened with sugar without added ascorbic acid</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14371</UsdaRefId>
+		<Name>Tea, instant, lemon-flavored, sweetened with sugar without added ascorbic acid</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14368</UsdaRefId>
+		<Name>Tea, instant, lemon-flavored, unsweetened</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14367</UsdaRefId>
+		<Name>Tea, instant, unsweetened</Name>
+		<InitialStage> powder</InitialStage>
+		<FinalStage> prepared</FinalStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14366</UsdaRefId>
+		<Name>Tea, instant, unsweetened</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14476</UsdaRefId>
+		<Name>Tea, with lemon flavor</Name>
+		<InitialStage> ready-to-drink</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14633</UsdaRefId>
+		<Name>Vegetable and fruit juice drink, reduced calorie with low-calorie sweetener, added vitamin C</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14385</UsdaRefId>
+		<Name>Water Mineral</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14555</UsdaRefId>
+		<Name>Water, generic</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14559</UsdaRefId>
+		<Name>Water, non-carbonated</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>0</ProteinFactor>
+		<FatFactor>0</FatFactor>
+		<CarbFactor>0</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14384</UsdaRefId>
+		<Name>Water, PERRIER</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14429</UsdaRefId>
+		<Name>Water, tap</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14411</UsdaRefId>
+		<Name>Water, tap</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14412</UsdaRefId>
+		<Name>Water, tap, well</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>0</ProteinFactor>
+		<FatFactor>0</FatFactor>
+		<CarbFactor>0</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14637</UsdaRefId>
+		<Name>Water, with corn syrup and/or sugar fruit flavored and low calorie sweetener</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14028</UsdaRefId>
+		<Name>Whiskey sour mix</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14024</UsdaRefId>
+		<Name>Whiskey sour mix</Name>
+		<InitialStage> powder</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.4</ProteinFactor>
+		<FatFactor>8.4</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14530</UsdaRefId>
+		<Name>Whiskey sour mix, with added potassium and sodium</Name>
+		<InitialStage> bottled</InitialStage>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.4</ProteinFactor>
+		<FatFactor>8.4</FatFactor>
+		<CarbFactor>3.9</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>14553</UsdaRefId>
+		<Name>Wine, non-alcoholic</Name>
+		<GroupId>1400</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+</FoodData>

@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FoodData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UsdaFood>
+		<UsdaRefId>20002</UsdaRefId>
+		<Name>Amaranth grain</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20001</UsdaRefId>
+		<Name>Amaranth grain</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.47</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20003</UsdaRefId>
+		<Name>Arrowroot flour</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.78</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20130</UsdaRefId>
+		<Name>Barley flour or meal</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.55</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.95</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20131</UsdaRefId>
+		<Name>Barley malt flour</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.55</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.95</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20006</UsdaRefId>
+		<Name>Barley, pearled</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.55</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.95</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20005</UsdaRefId>
+		<Name>Barley, pearled</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.55</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.95</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20008</UsdaRefId>
+		<Name>Buckwheat</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.37</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20011</UsdaRefId>
+		<Name>Buckwheat flour, whole-groat</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.37</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20009</UsdaRefId>
+		<Name>Buckwheat groats</Name>
+		<InitialStage> dry</InitialStage>
+		<FinalStage> roasted</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.37</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20010</UsdaRefId>
+		<Name>Buckwheat groats</Name>
+		<FinalStage> roasted</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.37</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20012</UsdaRefId>
+		<Name>Bulgur</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20013</UsdaRefId>
+		<Name>Bulgur</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20015</UsdaRefId>
+		<Name>Corn bran</Name>
+		<InitialStage>packaged</InitialStage>
+		<FinalStage>raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>1.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>2.35</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20315</UsdaRefId>
+		<Name>Corn flour, blue (harina de maiz morado), whole-grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20017</UsdaRefId>
+		<Name>Corn flour, white, masa</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20316</UsdaRefId>
+		<Name>Corn flour, white, whole-grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20317</UsdaRefId>
+		<Name>Corn flour, yellow, masa</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20016</UsdaRefId>
+		<Name>Corn flour, yellow, whole-grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20314</UsdaRefId>
+		<Name>Corn grain, white</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20014</UsdaRefId>
+		<Name>Corn grain, yellow</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20322</UsdaRefId>
+		<Name>Cornmeal, white, degermed</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.46</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20323</UsdaRefId>
+		<Name>Cornmeal, white, plain,  self-rising</Name>
+		<FinalStage> bolted</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20325</UsdaRefId>
+		<Name>Cornmeal, white, self-rising, degermed</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.46</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20320</UsdaRefId>
+		<Name>Cornmeal, white, whole-grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20324</UsdaRefId>
+		<Name>Cornmeal, white, with wheat flour added,  self-rising</Name>
+		<FinalStage> bolted</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.13</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.06</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20022</UsdaRefId>
+		<Name>Cornmeal, yellow, degermed</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.46</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20023</UsdaRefId>
+		<Name>Cornmeal, yellow, plain,  self-rising</Name>
+		<FinalStage> bolted</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20025</UsdaRefId>
+		<Name>Cornmeal, yellow, self-rising, degermed</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.46</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20020</UsdaRefId>
+		<Name>Cornmeal, yellow, whole-grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20024</UsdaRefId>
+		<Name>Cornmeal, yellow, with wheat flour added, ,  self-rising</Name>
+		<FinalStage> bolted</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.13</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.06</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20027</UsdaRefId>
+		<Name>Cornstarch</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.46</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20028</UsdaRefId>
+		<Name>Couscous</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20029</UsdaRefId>
+		<Name>Couscous</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20030</UsdaRefId>
+		<Name>Hominy, white</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.46</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20330</UsdaRefId>
+		<Name>Hominy, yellow</Name>
+		<InitialStage> canned</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.46</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20099</UsdaRefId>
+		<Name>Macaroni</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20100</UsdaRefId>
+		<Name>Macaroni</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20101</UsdaRefId>
+		<Name>Macaroni, protein-fortified, (n x 5.70)</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20102</UsdaRefId>
+		<Name>Macaroni, protein-fortified, (n x 5.70)</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20301</UsdaRefId>
+		<Name>Macaroni, protein-fortified, (n x 6.25)</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20302</UsdaRefId>
+		<Name>Macaroni, protein-fortified, (n x 6.25)</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20105</UsdaRefId>
+		<Name>Macaroni, vegetable</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.86</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.11</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20106</UsdaRefId>
+		<Name>Macaroni, vegetable</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.86</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.11</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20108</UsdaRefId>
+		<Name>Macaroni, whole-wheat</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20107</UsdaRefId>
+		<Name>Macaroni, whole-wheat</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20031</UsdaRefId>
+		<Name>Millet</Name>
+		<InitialStage> raw</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.87</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20032</UsdaRefId>
+		<Name>Millet</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.87</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20647</UsdaRefId>
+		<Name>Millet flour</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20113</UsdaRefId>
+		<Name>Noodles, chinese, chow mein</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20109</UsdaRefId>
+		<Name>Noodles, egg</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.93</ProteinFactor>
+		<FatFactor>8.41</FatFactor>
+		<CarbFactor>4.09</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20110</UsdaRefId>
+		<Name>Noodles, egg</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.93</ProteinFactor>
+		<FatFactor>8.41</FatFactor>
+		<CarbFactor>4.09</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20310</UsdaRefId>
+		<Name>Noodles, egg, with added salt</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.93</ProteinFactor>
+		<FatFactor>8.41</FatFactor>
+		<CarbFactor>4.09</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20118</UsdaRefId>
+		<Name>Noodles, flat, crunchy</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20114</UsdaRefId>
+		<Name>Noodles, japanese, soba</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.37</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20115</UsdaRefId>
+		<Name>Noodles, japanese, soba</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.37</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20116</UsdaRefId>
+		<Name>Noodles, japanese, somen</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20117</UsdaRefId>
+		<Name>Noodles, japanese, somen</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20033</UsdaRefId>
+		<Name>Oat bran</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>1.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>2.35</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20034</UsdaRefId>
+		<Name>Oat bran</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>1.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>2.35</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20132</UsdaRefId>
+		<Name>Oat flour</Name>
+		<InitialStage> partially debranned</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20038</UsdaRefId>
+		<Name>Oats</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.46</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20092</UsdaRefId>
+		<Name>Pasta, corn</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20091</UsdaRefId>
+		<Name>Pasta, corn</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.73</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20097</UsdaRefId>
+		<Name>Pasta, made with egg</Name>
+		<InitialStage> homemade</InitialStage>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.93</ProteinFactor>
+		<FatFactor>8.41</FatFactor>
+		<CarbFactor>4.09</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20098</UsdaRefId>
+		<Name>Pasta, made without egg</Name>
+		<InitialStage> homemade</InitialStage>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20093</UsdaRefId>
+		<Name>Pasta, plain</Name>
+		<InitialStage> fresh-refrigerated</InitialStage>
+		<FinalStage>raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.93</ProteinFactor>
+		<FatFactor>8.41</FatFactor>
+		<CarbFactor>4.09</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20094</UsdaRefId>
+		<Name>Pasta, plain</Name>
+		<InitialStage> fresh-refrigerated</InitialStage>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.93</ProteinFactor>
+		<FatFactor>8.41</FatFactor>
+		<CarbFactor>4.09</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20095</UsdaRefId>
+		<Name>Pasta, spinach</Name>
+		<InitialStage> fresh-refrigerated</InitialStage>
+		<FinalStage>raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.88</ProteinFactor>
+		<FatFactor>8.41</FatFactor>
+		<CarbFactor>4.08</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20096</UsdaRefId>
+		<Name>Pasta, spinach</Name>
+		<InitialStage> fresh-refrigerated</InitialStage>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.88</ProteinFactor>
+		<FatFactor>8.41</FatFactor>
+		<CarbFactor>4.08</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20137</UsdaRefId>
+		<Name>Quinoa</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20035</UsdaRefId>
+		<Name>Quinoa</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20060</UsdaRefId>
+		<Name>Rice bran</Name>
+		<InitialStage>packaged</InitialStage>
+		<FinalStage>raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>1.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>2.35</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20090</UsdaRefId>
+		<Name>Rice flour, brown</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.41</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20061</UsdaRefId>
+		<Name>Rice flour, white</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20133</UsdaRefId>
+		<Name>Rice noodles</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20134</UsdaRefId>
+		<Name>Rice noodles</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20037</UsdaRefId>
+		<Name>Rice, brown, long-grain</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.41</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20036</UsdaRefId>
+		<Name>Rice, brown, long-grain</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.41</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20041</UsdaRefId>
+		<Name>Rice, brown, medium-grain</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.41</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20040</UsdaRefId>
+		<Name>Rice, brown, medium-grain</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.41</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20058</UsdaRefId>
+		<Name>Rice, white</Name>
+		<FinalStage> steamed</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20055</UsdaRefId>
+		<Name>Rice, white, glutinous</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20054</UsdaRefId>
+		<Name>Rice, white, glutinous</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20045</UsdaRefId>
+		<Name>Rice, white, long-grain</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20044</UsdaRefId>
+		<Name>Rice, white, long-grain</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20046</UsdaRefId>
+		<Name>Rice, white, long-grain, parboiled</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20047</UsdaRefId>
+		<Name>Rice, white, long-grain, parboiled</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20048</UsdaRefId>
+		<Name>Rice, white, long-grain, precooked or instant</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20049</UsdaRefId>
+		<Name>Rice, white, long-grain, precooked or instant</Name>
+		<FinalStage> prepared</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20345</UsdaRefId>
+		<Name>Rice, white, long-grain, with salt</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20050</UsdaRefId>
+		<Name>Rice, white, medium-grain</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20051</UsdaRefId>
+		<Name>Rice, white, medium-grain</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20053</UsdaRefId>
+		<Name>Rice, white, short-grain</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20052</UsdaRefId>
+		<Name>Rice, white, short-grain</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.16</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20063</UsdaRefId>
+		<Name>Rye flour, dark</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.96</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20065</UsdaRefId>
+		<Name>Rye flour, light</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.41</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20064</UsdaRefId>
+		<Name>Rye flour, medium</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.23</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.99</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20062</UsdaRefId>
+		<Name>Rye grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.86</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20066</UsdaRefId>
+		<Name>Semolina, enriched</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20466</UsdaRefId>
+		<Name>Semolina, unenriched</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20648</UsdaRefId>
+		<Name>Sorghum flour, whole-grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.28</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.07</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20067</UsdaRefId>
+		<Name>Sorghum grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>0.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20120</UsdaRefId>
+		<Name>Spaghetti</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20123</UsdaRefId>
+		<Name>Spaghetti, protein-fortified, (n x 5.70)</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20122</UsdaRefId>
+		<Name>Spaghetti, protein-fortified, (n x 5.70)</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20523</UsdaRefId>
+		<Name>Spaghetti, protein-fortified, (n x 6.25)</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20622</UsdaRefId>
+		<Name>Spaghetti, protein-fortified, (n x 6.25)</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20127</UsdaRefId>
+		<Name>Spaghetti, spinach</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.86</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.11</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20126</UsdaRefId>
+		<Name>Spaghetti, spinach</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.86</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.11</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20125</UsdaRefId>
+		<Name>Spaghetti, whole-wheat</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20124</UsdaRefId>
+		<Name>Spaghetti, whole-wheat</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20321</UsdaRefId>
+		<Name>Spaghetti, with added salt</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20121</UsdaRefId>
+		<Name>Spaghetti, without added salt</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.91</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20141</UsdaRefId>
+		<Name>Spelt</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20140</UsdaRefId>
+		<Name>Spelt</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20068</UsdaRefId>
+		<Name>Tapioca, pearl</Name>
+		<InitialStage> dry</InitialStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>2.78</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.03</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20143</UsdaRefId>
+		<Name>Teff</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20142</UsdaRefId>
+		<Name>Teff</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4</ProteinFactor>
+		<FatFactor>9</FatFactor>
+		<CarbFactor>4</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20069</UsdaRefId>
+		<Name>Triticale</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.32</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.82</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20070</UsdaRefId>
+		<Name>Triticale flour, whole-grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.32</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.82</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>48052</UsdaRefId>
+		<Name>Vital wheat gluten</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20077</UsdaRefId>
+		<Name>Wheat bran</Name>
+		<InitialStage>packaged</InitialStage>
+		<FinalStage>raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>1.82</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>2.35</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20628</UsdaRefId>
+		<Name>Wheat flour, white, 10% protein</Name>
+		<FinalStage> bleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20630</UsdaRefId>
+		<Name>Wheat flour, white, 10% protein</Name>
+		<FinalStage> unbleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20634</UsdaRefId>
+		<Name>Wheat flour, white, 11.5% protein</Name>
+		<FinalStage> bleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20636</UsdaRefId>
+		<Name>Wheat flour, white, 11.5% protein</Name>
+		<FinalStage> unbleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20640</UsdaRefId>
+		<Name>Wheat flour, white, 13% protein</Name>
+		<FinalStage> bleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20645</UsdaRefId>
+		<Name>Wheat flour, white, 15% protein</Name>
+		<FinalStage> bleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20623</UsdaRefId>
+		<Name>Wheat flour, white, 9% protein</Name>
+		<FinalStage> bleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20081</UsdaRefId>
+		<Name>Wheat flour, white, all-purpose</Name>
+		<FinalStage> bleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20581</UsdaRefId>
+		<Name>Wheat flour, white, all-purpose</Name>
+		<FinalStage> unbleached</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20381</UsdaRefId>
+		<Name>Wheat flour, white, all-purpose, calcium-fortified</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20082</UsdaRefId>
+		<Name>Wheat flour, white, all-purpose, self-rising</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20083</UsdaRefId>
+		<Name>Wheat flour, white, bread</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20084</UsdaRefId>
+		<Name>Wheat flour, white, cake</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20086</UsdaRefId>
+		<Name>Wheat flour, white, tortilla mix</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20080</UsdaRefId>
+		<Name>Wheat flour, whole-grain</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20649</UsdaRefId>
+		<Name>Wheat flour, whole-grain, soft wheat</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20129</UsdaRefId>
+		<Name>Wheat flours, bread, unenriched</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>4.05</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>4.12</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20078</UsdaRefId>
+		<Name>Wheat germ</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20076</UsdaRefId>
+		<Name>Wheat, durum</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20071</UsdaRefId>
+		<Name>Wheat, hard red spring</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20072</UsdaRefId>
+		<Name>Wheat, hard red winter</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20074</UsdaRefId>
+		<Name>Wheat, hard white</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20073</UsdaRefId>
+		<Name>Wheat, soft red winter</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20075</UsdaRefId>
+		<Name>Wheat, soft white</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20087</UsdaRefId>
+		<Name>Wheat, sprouted</Name>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.59</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.78</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20088</UsdaRefId>
+		<Name>Wild rice</Name>
+		<FinalStage> raw</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.55</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.95</CarbFactor>
+	</UsdaFood>
+	<UsdaFood>
+		<UsdaRefId>20089</UsdaRefId>
+		<Name>Wild rice</Name>
+		<FinalStage> cooked</FinalStage>
+		<GroupId>2000</GroupId>
+		<RefuseDesc/>
+		<Refuse>0</Refuse>
+		<ProteinFactor>3.55</ProteinFactor>
+		<FatFactor>8.37</FatFactor>
+		<CarbFactor>3.95</CarbFactor>
+	</UsdaFood>
+</FoodData>

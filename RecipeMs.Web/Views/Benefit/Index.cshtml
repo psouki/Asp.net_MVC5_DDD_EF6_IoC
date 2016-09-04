@@ -1,0 +1,98 @@
+﻿@model IPagedList<BenefitVm>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<section class="content-header">
+    <h1>
+        Benefit
+        <small>management</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li> <a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="nav-tabs-custom">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#benefitTab" data-toggle="tab">Benefit</a>
+                    </li>
+                    <li>
+                        <a href="#foodTab" data-toggle="tab">Foods</a>
+                    </li>
+                    <li>
+                        <a href="#conditionsTab" data-toggle="tab">Conditions</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="benefitTab">
+                        <div class="box-header">
+                            @Html.ActionLink("Create New", "Create")
+                            <div class="box-tools">
+                                @using (Ajax.BeginForm(
+                                    new AjaxOptions
+                                    {
+                                        HttpMethod = "get",
+                                        InsertionMode = InsertionMode.Replace,
+                                        UpdateTargetId = "benefitTable"
+                                    }))
+                                {
+                                    <div class="input-group input-group-sm" style="width: 150px;">
+                                        <input type="search" name="searchTerm" class="form-control pull-right" placeholder="search"/>
+                                        <div class="input-group-btn">
+                                            <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                        @Html.Partial("_BenefitTable", Model)
+                    </div>
+                    <div class="tab-pane" id="foodTab">
+                        <div class="box box-solid">
+                            <div class="box-header">
+                                <h3 class="box-title">Choose a benefit</h3>
+                            </div>
+                            <div class="box-body">
+                                <div id="BenefitFoodTable">
+                                    No benefit was chosen.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="conditionsTab"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script>
+        $(document).ready(function(parameters) {
+            var pagination = new navigationNS.Pagination();
+            $('.content-wrapper').on('click', '.pagedList a', pagination.getPage);
+
+            $('.content-wrapper').on('click', '#benefitTable a[data-crud-name]', function () {
+                var link = $(this);
+                var table = link.attr('data-crud-table');
+
+                var crud;
+                if (table === '#BenefitFoodTable') {
+                    crud = new crudNs.Tab(link, '#foodTab');
+                } else {
+                    crud = new crudNs.Tab(link, '#conditionsTab');
+                }
+                crud.init();
+                return false;
+            });
+        });
+    </script>
+}
+

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FoodData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Food">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UsdaRefId" type="xs:unsignedShort" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element minOccurs="0" name="InitalStage" type="xs:string" />
+              <xs:element minOccurs="0" name="FinalStage" type="xs:string" />
+              <xs:element name="GroupId" type="xs:unsignedShort" />
+              <xs:element name="RefuseDesc" />
+              <xs:element name="Refuse" type="xs:decimal" />
+              <xs:element minOccurs="0" name="ProteinFactor" type="xs:decimal" />
+              <xs:element minOccurs="0" name="FactFactor" type="xs:decimal" />
+              <xs:element minOccurs="0" name="CarbFactor" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

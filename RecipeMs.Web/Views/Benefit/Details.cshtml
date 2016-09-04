@@ -1,0 +1,34 @@
+﻿@model RecipeMs.Web.ViewModels.BenefitVm
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<section class="content-header">
+    <h1>
+        @Html.DisplayFor(model => model.Title)
+        <small>definition</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li> <a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-body">
+                    @Html.DisplayFor(model => model.Description)
+                </div>
+            </div>
+            <p>
+                <a href="@Url.Action("Edit", new {id = Model.BenefitId})" class="btn btn-default"><i class="fa fa-edit"> Edit</i></a> 
+                <a href="@Url.Action("Index", new {id = Model.BenefitId})" class="btn btn-default"> Back to benefits <i class="fa fa-heart"></i></a> 
+            </p>
+
+        </div>
+    </div>
+</section>
+

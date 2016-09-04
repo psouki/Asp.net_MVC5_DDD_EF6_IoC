@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<section class="content">
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box bg-aqua">
+                <div class="inner">
+                    <h3>Food</h3>
+                    <p>New</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-cutlery"></i>
+                </div>
+                <a href="@Url.Action("Index", "Food")" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box bg-green">
+                <div class="inner">
+                    <h3>
+                        Tag
+                    </h3>
+                    <p>New</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-tag"></i>
+                </div>
+                <a href="@Url.Action("Index", "Tag")" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-xs-6">
+            <div class="small-box bg-yellow">
+                <div class="inner">
+                    <h3>Benefit</h3>
+                    <p>New</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <a href="@Url.Action("Index", "Benefit")" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-lg-offset-2">
+            <div class="box box-primary">
+                <div class="box-header">
+                    <i class="ion ion-clipboard"></i>
+                    <h3 class="box-title">To Do List</h3>
+                    
+                </div>
+                <div class="box-body">
+                    <ul class="todo-list">
+                        <li>
+                            <span class="text">Implement conditions</span>
+                            <small class="label label-info"><i class="fa fa-clock-o"></i> 4 hours</small>
+                        </li>
+                        <li>
+                            <span class="text">Implement recipes</span>
+                            <small class="label label-info"><i class="fa fa-clock-o"></i> 4 hours</small>
+                        </li>
+                        <li>
+                            <span class="text">Verify the math in case of food stage with refuse</span>
+                            <small class="label label-success"><i class="fa fa-clock-o"></i> 1 hour</small>
+                        </li>
+                        <li>
+                            <span class="text">Integrate with Angular.js</span>
+                            <small class="label label-danger"><i class="fa fa-clock-o"></i> 1 week</small>
+                        </li>
+                        <li>
+                            <span class="text">Assign some benefits to the foods</span>
+                            <small class="label label-warning"><i class="fa fa-clock-o"></i> 2 day</small>
+                        </li>
+                        <li>
+                            <span class="text">Find benefits that can help some conditions</span>
+                            <small class="label label-default"><i class="fa fa-clock-o"></i> 1 day</small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+

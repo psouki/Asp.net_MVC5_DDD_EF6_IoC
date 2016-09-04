@@ -1,0 +1,47 @@
+﻿@model IEnumerable<TagVm>
+
+<div id="tagTable" class="box-body">
+    <div>
+        @foreach (var item in Model)
+        {
+            <code>@item.Name</code>
+            <a href="@Url.Action("Edit", new {id = item.TagId})" data-toggle="tooltip" title="Edit"><i class="fa fa-edit"></i></a> 
+            <a href="@Url.Action("Delete", new {id = item.TagId})" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></a>
+        }
+    </div>
+</div>
+
+
+@*<div id="tagTable" class="box-body table-responsive no-padding">
+    <table class="table table-hover table-striped table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(m => m.First().Name)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", new {id = item.TagId})" data-toggle="tooltip" title="Edit"><i class="fa fa-edit"></i></a> |
+                    <a href="@Url.Action("Delete", new {id = item.TagId})" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></a> |
+                        </td>
+                    </tr>
+                }
+            </table>
+          <div class="pagedList" data-pl-target="#tagTable">
+         @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions()
+    {
+        DisplayLinkToFirstPage = PagedListDisplayMode.Never,
+        DisplayLinkToLastPage = PagedListDisplayMode.Never,
+        DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+        DisplayPageCountAndCurrentLocation = true
+    })
+     </div>
+
+        </div>*@

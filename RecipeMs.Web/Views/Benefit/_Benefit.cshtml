@@ -1,0 +1,16 @@
+﻿@model BenefitVm
+
+<tr>
+    <td>
+        @Html.DisplayFor(m => Model.Title)
+    </td>
+    <td>
+        @Html.DisplayFor(m => Model.Description)
+    </td>
+    <td>
+        <a href="@Url.Action("Edit", new {id = Model.BenefitId})" data-toggle="tooltip" title="Edit"><i class="fa fa-edit"></i></a> |
+        <a href="@Url.Action("Details", new {id = Model.BenefitId})"  data-toggle="tooltip" title="Details"><i class="fa fa-file-text-o"></i></a> |
+        <a href="@Url.Action("Delete", new {id = Model.BenefitId})" data-toggle="tooltip" title="Delete"><i class="fa fa-trash"></i></a> |
+        <a href="@Url.Action("PopulateFoods", new {id = Model.BenefitId})" data-toggle="tooltip" title="Food" data-crud-name="@Model.Title" data-crud-id="@Model.BenefitId" data-crud-table="#BenefitFoodTable" data-crud-idname="#FoodId"><i class="fa fa-cutlery"></i></a> 
+    </td>
+</tr>
