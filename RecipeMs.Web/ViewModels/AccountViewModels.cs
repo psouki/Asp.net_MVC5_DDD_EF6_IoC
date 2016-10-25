@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using RecipeMs.Web.Validations;
 
 namespace RecipeMs.Web.Models
 {

@@ -1,9 +1,38 @@
-﻿@model System.Web.Mvc.HandleErrorInfo
+﻿@model HandleErrorInfo
 
 @{
     ViewBag.Title = "Error";
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+    <section class="content-header">
+        <h1>
+            Error Page
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="#">Examples</a></li>
+            <li class="active">Error</li>
+        </ol>
+    </section>
+<section class="content">
+    
+    <div class="row">
+        <div class="col-sm-7 col-sm-offset-1">
+            <div class="error-page">
+                <h2 class="headline text-yellow"> Error</h2>
+                <div class="error-content">
+                    <h3>
+                        <i class="fa fa-warning text-yellow"></i> Oops! An error occurred while processing your request.
+                    </h3>
+                    <p>
+                        We're sorry for this inconvenience. You may @Html.ActionLink("return to dashboard", "Index", "Home") or try again later.
+                </p>
+                <p>
+                    <img src="~/Images/dogDeveloper.png" class="img-responsive center-block" />
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 

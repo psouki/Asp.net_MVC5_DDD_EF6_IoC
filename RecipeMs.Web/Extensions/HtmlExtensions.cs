@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 
-namespace MvcExtensionsLibrary
+namespace RecipeMs.Web.Extensions
 {
     public static class HtmlExtensions
     {
@@ -23,7 +23,6 @@ namespace MvcExtensionsLibrary
 
         public static MvcHtmlString SortedEnumDropDownListFor<TModel, TEnum>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TEnum>> expression, string initalValue, object htmlAttributes = null)
         {
-
             ModelMetadata metadata = ModelMetadata.FromLambdaExpression(expression, htmlHelper.ViewData);
 
             Type enumType = GetNonNullableModelType(metadata);

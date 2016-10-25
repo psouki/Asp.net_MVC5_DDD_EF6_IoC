@@ -1,6 +1,7 @@
 ﻿@model RecipeMs.Web.Models.SendCodeViewModel
 @{
     ViewBag.Title = "Send";
+    Layout = "~/Views/Shared/_LayoutLogout.cshtml";
 }
 
 <h2>@ViewBag.Title.</h2>
@@ -19,6 +20,3 @@
     </div>
 }
 
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}

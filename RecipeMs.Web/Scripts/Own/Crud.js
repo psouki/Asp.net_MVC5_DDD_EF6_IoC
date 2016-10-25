@@ -13,7 +13,8 @@ crudNs.Tab = function (current, tab) {
     this.IdName = this.curr.data('crud-idname');
 }
 crudNs.Tab.prototype = function () {
-    var activateSelectedTab = function (self) {
+    var activateSelectedTab = function () {
+        var self = this;
         var tab = self.tabTargetElement;
 
         var linkTabs = tab.closest('.nav-tabs-custom').find('.nav-tabs li');
@@ -26,8 +27,8 @@ crudNs.Tab.prototype = function () {
         selectedTab.addClass('active');
         tab.closest('.tab-pane').addClass('active');
     },
-    populateDll = function(self) {
-        self = self === undefined ? this : self;
+    populateDll = function() {
+        var self = this;
 
         var options = {
             url: self.href,
@@ -38,8 +39,8 @@ crudNs.Tab.prototype = function () {
             $(self.divTarget).replaceWith(data);
         });
     },
-    populateTable = function(self) {
-        self = self === undefined ? this : self;
+    populateTable = function () {
+        var self = this;
 
         var options = {
             url: self.href,
@@ -70,8 +71,8 @@ crudNs.Tab.prototype = function () {
         $(self.tabTarget + ' .box-header h3').text(self.itemName);
         $(self.divTarget + ' '+ self.IdName).val(self.entityId);
 
-        populateTable(self);
-        activateSelectedTab(self);
+        populateTable.call(self);
+        activateSelectedTab.call(self);
 
         return false;
     };

@@ -109,9 +109,6 @@
 	left: 0;
 	cursor: default;
 }
-.ui-autocomplete-input {
-    text-decoration: none;
-}
 .ui-menu {
 	list-style: none;
 	padding: 0;

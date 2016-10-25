@@ -1,6 +1,7 @@
 ﻿@model RecipeMs.Web.Models.VerifyCodeViewModel
 @{
     ViewBag.Title = "Verify";
+    Layout = "~/Views/Shared/_LayoutLogout.cshtml";
 }
 
 <h2>@ViewBag.Title.</h2>
@@ -33,6 +34,3 @@
     </div>
 }
 
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}

@@ -21,6 +21,21 @@
                 </a>
                 <div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
+                        <li>
+                            @if (Request.IsAuthenticated)
+                            {
+                                using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                }
+
+                                <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                            }
+                            else
+                            {
+                                <a href="~/account/login">Login</a>
+                            }
+                        </li>
                         <li class="dropdown messages-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-envelope-o"></i>
@@ -61,21 +76,29 @@
                         <img src="~/Images/user.jpeg" class="img-circle" alt="user image" />
                     </div>
                     <div class="pull-left info">
-                        <p>Pedro Cordeiro</p>
-                        <a href="#"><i class="fa fa-circle text-success"></i> Online </a>
+                        @if (Request.IsAuthenticated)
+                        {
+                            <p>@User.Identity.Name</p>
+                            <a href="#"><i class="fa fa-circle text-success"></i> Online </a>
+                        }
+                        else
+                        {
+                            <a href="#"><i class="fa fa-circle text-danger"></i> Offline </a>
+                        }
+
                     </div>
                 </div>
 
                 <ul class="sidebar-menu">
                     <li class="header">Admin Area</li>
                     <li id="Home">
-                        <a href="@Url.Action("Index", "Home")" >
+                        <a href="@Url.Action("Index", "Home")">
                             <i class="fa fa-home"></i>
                             <span>Home</span>
                         </a>
                     </li>
                     <li id="Food">
-                        <a href="@Url.Action("Index", "Food")" >
+                        <a href="@Url.Action("Index", "Food")">
                             <i class="fa fa-glass fa-cutlery"></i>
                             <span>Food</span>
                         </a>
@@ -129,7 +152,7 @@
                                     <h4 class="control-sidebar-subheading">DDD implemented</h4>
                                     <span class="label label-success">100%</span>
                                 </div>
-                               
+
                             </a>
                         </li>
                         <li>
@@ -176,19 +199,21 @@
         <div class="control-sidebar-bg"></div>
     </div>
 
-    @Scripts.Render("~/bundles/jqueryAll")
-    @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/theme")
-    @Scripts.Render("~/bundles/own")
+    @Scripts.Render("~/bundles/jsScripts")
+@*@Scripts.Render(
+            "~/bundles/jqueryAll",
+            "~/bundles/bootstrap",
+            "~/bundles/theme",
+            "~/bundles/own")*@
 
-<script>
-    $(document).ready(function() {
-        var controller = window.location.pathname.split('/')[1];
-        var menuActive = new navigationNS.Active(controller, 'Home', 'ul.sidebar-menu li');
-        menuActive.setCurrent();
-    });
-</script>
+    <script>
+        $(document).ready(function () {
+            var controller = window.location.pathname.split('/')[1];
+            var menuActive = new navigationNS.Active(controller, 'Home', 'ul.sidebar-menu li');
+            menuActive.setCurrent();
+        });
+    </script>
 
-@RenderSection("scripts", required: false)
+    @RenderSection("scripts", required: false)
 </body>
 </html>

@@ -2,15 +2,18 @@
 
 namespace RecipeMs.Web.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class RecipeController : Controller
     {
         // GET: Recipe
+        [HttpGet]
         public ActionResult Index()
         {
             return View();
         }
 
         // GET: Recipe/Details/5
+        [HttpGet]
         public ActionResult Details(int id)
         {
             return View();

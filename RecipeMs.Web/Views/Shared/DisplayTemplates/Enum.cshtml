@@ -4,25 +4,15 @@
 {
     // Display Enum using same names (from [Display] attributes) as in editors
     string displayName = null;
-    foreach (SelectListItem item in EnumHelper.GetSelectList(ViewData.ModelMetadata, (Enum)Model))
+    foreach (SelectListItem item in EnumHelper.GetSelectList(ViewData.ModelMetadata, (Enum)Model).Where(item => item.Selected))
     {
-        if (item.Selected)
-        {
-            displayName = item.Text ?? item.Value;
-        }
+        displayName = item.Text ?? item.Value;
     }
 
     // Handle the unexpected case that nothing is selected
-    if (String.IsNullOrEmpty(displayName))
+    if (string.IsNullOrEmpty(displayName))
     {
-        if (Model == null)
-        {
-            displayName = String.Empty;
-        }
-        else
-        {
-            displayName = Model.ToString();
-        }
+        displayName = Model?.ToString() ?? string.Empty;
     }
 
     @Html.DisplayTextFor(model => displayName)

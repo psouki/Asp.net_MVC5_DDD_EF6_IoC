@@ -1,6 +1,7 @@
 ﻿@model RecipeMs.Web.Models.ExternalLoginConfirmationViewModel
 @{
     ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutLogout.cshtml";
 }
 <h2>@ViewBag.Title.</h2>
 <h3>Associate your @ViewBag.LoginProvider account.</h3>
@@ -31,6 +32,3 @@
     </div>
 }
 
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}

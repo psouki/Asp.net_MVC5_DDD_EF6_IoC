@@ -9,10 +9,12 @@ using RecipeMs.Application.Useful;
 using RecipeMs.CrossCutting.Common;
 using RecipeMs.Web.ViewModels;
 using RecipeMs.CrossCutting.Common.Query;
+using RecipeMs.Web.Filters;
 using static RecipeMs.Web.Util.ActionHelper;
 
 namespace RecipeMs.Web.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class FoodController : Controller
     {
         private readonly IFoodAppService _foodAppService;
@@ -79,6 +81,8 @@ namespace RecipeMs.Web.Controllers
 
 
         //populate
+        [HttpGet]
+        [MissingParam(ParamName = "id")]
         public ActionResult PopulateBenefitForFoods(int id)
         {
             ManyToManyVm manyToMany = new ManyToManyVm
@@ -90,6 +94,8 @@ namespace RecipeMs.Web.Controllers
             return PartialView("_FoodBenefitDdl", manyToMany);
         }
 
+        [HttpGet]
+        [MissingParam(ParamName = "id")]
         public ActionResult PopulateBenifitTable(int id)
         {
             string result = _foodAppService.GetFoodByIdWithBenefits(id);
@@ -104,6 +110,8 @@ namespace RecipeMs.Web.Controllers
             return PartialView("_BenefitTable", benefits);
         }
 
+        [HttpGet]
+        [MissingParam(ParamName = "id")]
         public ActionResult PopulateFoodStageTable(int id, int page = 1)
         {
             ICollection<QueryFilter> filters = new List<QueryFilter>();
@@ -122,10 +130,11 @@ namespace RecipeMs.Web.Controllers
             return PartialView("_FoodStageTable", foodStages);
         }
 
+        [HttpGet]
+        [MissingParam(ParamName = "id")]
         public ActionResult BuildNutritionalLabel(int id)
         {
             string result = _foodStageAppService.CreateNutritionalLabel(id, 100);
-
             return Json(result, JsonRequestBehavior.AllowGet);
         }
 
@@ -178,6 +187,7 @@ namespace RecipeMs.Web.Controllers
 
         }
 
+        [MissingParam(ParamName = "id")]
         public ActionResult AddFoodStage(int id)
         {
             IEnumerable<string> initialValues = _foodStageAppService.GetDistinctInitial();
@@ -187,6 +197,7 @@ namespace RecipeMs.Web.Controllers
             ViewBag.Finals = new SelectList(finalValues);
 
             FoodStageVm foodStage = new FoodStageVm { FoodId = id };
+
             return PartialView("_FoodStageMgm", foodStage);
         }
 
@@ -213,12 +224,19 @@ namespace RecipeMs.Web.Controllers
             return Json(result);
         }
 
-
         //Edit
+        [MissingParam(ParamName="id")]
         public ActionResult Edit(int id)
         {
-            string result = _foodAppService.GetById(id);
-            FoodVm food = string.IsNullOrEmpty(result) ? new FoodVm() : JsonConvert.DeserializeObject<FoodVm>(result);
+            string result = id==0 ? string.Empty : _foodAppService.GetById(id);
+            FoodVm food = string.IsNullOrEmpty(result) 
+                ? null 
+                : JsonConvert.DeserializeObject<FoodVm>(result);
+
+            if (food == null)
+            {
+                return RedirectToAction("Index");
+            }
 
             return View(food);
         }
@@ -243,6 +261,7 @@ namespace RecipeMs.Web.Controllers
             }
         }
 
+        [MissingParam(ParamName = "id")]
         public ActionResult EditFoodStage(int id)
         {
             IEnumerable<string> initialValues = _foodStageAppService.GetDistinctInitial();
@@ -251,10 +270,15 @@ namespace RecipeMs.Web.Controllers
             IEnumerable<string> finalValues = _foodStageAppService.GetDistinctFinal();
             ViewBag.Finals = new SelectList(finalValues);
 
-            string result = _foodStageAppService.GetById(id);
+            string result = id == 0 ? string.Empty : _foodStageAppService.GetById(id);
             FoodStageVm foodStage = string.IsNullOrEmpty(result)
                 ? new FoodStageVm {FoodId = id}
                 : JsonConvert.DeserializeObject<FoodStageVm>(result);
+
+            if (foodStage == null)
+            {
+                return RedirectToAction("Index");
+            }
 
             return PartialView("_FoodStageEdit", foodStage);
         }
@@ -281,11 +305,16 @@ namespace RecipeMs.Web.Controllers
         
 
         //Delete
+        [MissingParam(ParamName = "id")]
         public ActionResult Delete(int id)
         {
-            string result = _foodAppService.GetById(id);
-            FoodVm food = string.IsNullOrEmpty(result) ? new FoodVm() : JsonConvert.DeserializeObject<FoodVm>(result);
+            string result = id == 0 ? string.Empty : _foodAppService.GetById(id);
+            FoodVm food = string.IsNullOrEmpty(result) ? null : JsonConvert.DeserializeObject<FoodVm>(result);
 
+            if (food == null)
+            {
+                return RedirectToAction("Index");
+            }
             return View(food);
         }
 

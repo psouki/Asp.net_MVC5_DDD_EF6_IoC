@@ -6,11 +6,13 @@ using Newtonsoft.Json;
 using RecipeMs.Application.Interfaces;
 using RecipeMs.Application.Useful;
 using RecipeMs.CrossCutting.Common.Query;
+using RecipeMs.Web.Filters;
 using RecipeMs.Web.ViewModels;
 using static RecipeMs.Web.Util.ActionHelper;
 
 namespace RecipeMs.Web.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class TagController : Controller
     {
         private readonly ITagAppService _appService;
@@ -102,10 +104,17 @@ namespace RecipeMs.Web.Controllers
 
 
         //Edit
+        [MissingParam(ParamName = "id")]
         public ActionResult Edit(int id)
         {
-            string result = _appService.GetById(id);
-            TagVm tag = string.IsNullOrEmpty(result) ? new TagVm() : JsonConvert.DeserializeObject<TagVm>(result);
+            string result = id == 0 ? string.Empty : _appService.GetById(id);
+            TagVm tag = string.IsNullOrEmpty(result) ? null : JsonConvert.DeserializeObject<TagVm>(result);
+
+            if (tag == null)
+            {
+                return RedirectToAction("Index");
+            }
+
             return View(tag);
         }
 
@@ -132,10 +141,16 @@ namespace RecipeMs.Web.Controllers
 
 
         //Delete
+        [MissingParam(ParamName = "id")]
         public ActionResult Delete(int id)
         {
-            string result =_appService.GetById(id);
-            TagVm tag = string.IsNullOrEmpty(result) ? new TagVm() : JsonConvert.DeserializeObject<TagVm>(result);
+            string result = id == 0 ? string.Empty : _appService.GetById(id);
+            TagVm tag = string.IsNullOrEmpty(result) ? null : JsonConvert.DeserializeObject<TagVm>(result);
+
+            if (tag == null)
+            {
+                return RedirectToAction("Index");
+            }
 
             return View(tag);
         }

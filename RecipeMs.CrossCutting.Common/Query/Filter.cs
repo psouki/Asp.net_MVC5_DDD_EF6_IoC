@@ -2,8 +2,14 @@ using Newtonsoft.Json.Serialization;
 
 namespace RecipeMs.CrossCutting.Common.Query
 {
+
     public class QueryFilter
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="propertyName"></param>
+        /// <param name="value"></param>
         public QueryFilter(string propertyName, string value)
         {
             PropertyName = propertyName;

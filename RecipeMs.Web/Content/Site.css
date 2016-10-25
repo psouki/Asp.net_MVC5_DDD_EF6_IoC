@@ -60,6 +60,9 @@
   background-image: none;
 }
 
+.fontWeightNormal {
+    font-weight: normal;
+}
 /*Nutritional Label*/
 
 .nutritionLabel {

@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using Newtonsoft.Json;
+using PagedList;
 using RecipeMs.Application.Interfaces;
 using RecipeMs.Application.Useful;
-using RecipeMs.Web.ViewModels;
-using PagedList;
 using RecipeMs.CrossCutting.Common;
 using RecipeMs.CrossCutting.Common.Query;
+using RecipeMs.Web.Filters;
+using RecipeMs.Web.ViewModels;
 
 namespace RecipeMs.Web.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class BenefitController : Controller
     {
         private readonly IBenefitAppService _appService;
@@ -56,14 +56,22 @@ namespace RecipeMs.Web.Controllers
             return View(benefitVms);
         }
 
-        public ActionResult Details(int id=1)
+        [HttpGet]
+        [MissingParam(ParamName = "id")]
+        public ActionResult Details(int id)
         {
-            string result = _appService.GetById(id);
-            BenefitVm benefit = string.IsNullOrEmpty(result)? new BenefitVm() : JsonConvert.DeserializeObject<BenefitVm>(result);
+            string result = id == 0 ? string.Empty : _appService.GetById(id);
+            BenefitVm benefit = string.IsNullOrEmpty(result)? null : JsonConvert.DeserializeObject<BenefitVm>(result);
 
+            if (benefit == null)
+            {
+                return RedirectToAction("Index");
+            }
             return View(benefit);
         }
 
+        [HttpGet]
+        [MissingParam(ParamName = "id")]
         public ActionResult PopulateFoods(int id, int page = 1)
         {
             string result = _appService.GetBenefitByIdWithFoods(id);
@@ -101,12 +109,18 @@ namespace RecipeMs.Web.Controllers
             }
         }
 
+        [MissingParam(ParamName="id")]
         public ActionResult Edit(int id)
         {
-            string result = _appService.GetById(id);
+            string result = id == 0 ? string.Empty : _appService.GetById(id);
             BenefitVm benefit = string.IsNullOrEmpty(result)
                 ? new BenefitVm()
                 : JsonConvert.DeserializeObject<BenefitVm>(result);
+
+            if (benefit == null)
+            {
+                return RedirectToAction("Index");
+            }
 
             return View(benefit);
         }
@@ -131,13 +145,18 @@ namespace RecipeMs.Web.Controllers
             }
         }
 
+        [MissingParam(ParamName = "id")]
         public ActionResult Delete(int id)
         {
-            string result = _appService.GetById(id);
+            string result = id == 0 ? string.Empty : _appService.GetById(id);
             BenefitVm benefit = string.IsNullOrEmpty(result)
-                ? new BenefitVm()
+                ? null
                 : JsonConvert.DeserializeObject<BenefitVm>(result);
 
+            if (benefit == null)
+            {
+                return RedirectToAction("Index");
+            }
             return View(benefit);
         }
 
