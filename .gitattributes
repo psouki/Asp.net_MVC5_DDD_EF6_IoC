@@ -16,4 +16,4 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-*.rb linguist-language=C#
+*.rb linguist-language=csharp
